@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+html{
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    /* background-color:#FFFFFF; */
+    background-image: url("/images/contact_us_background2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:  center center;
+    
+}
+/* nav bar css */
+.navbar{
+    width: 100%;
+    top: 0%;
+    background: #ffd900;
+    padding: 20px 0px;
+}
+.navbar ul{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.navbar ul li{
+    list-style: none;
+    margin: 0 20px;
+    display: inline;
+}
+.navbar ul li a{
+    color: #000000;
+    font-size: 1em;
+    line-height: 1em;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: inline-block;
+    font-weight: 700;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+.navbar ul li a.active{
+    background: #FFFFFF;
+}
+/* hover effects css */
+.navbar ul li:hover a{
+    background: #FFFFFF;
+}
+.heading{
+  color: #ffffff;
+  margin-left: 215px;
+  margin-top: -50px;
+  /* font-family: monospace; */
+  font-family: 'Mate SC', serif;
+  font-size: 15px;
+  letter-spacing: 5px;
+
+}
+
+
+
+/* CONTACT SECTION CSS */
+
+.contact-section{
+    top: 80px;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.con{
+  /* background-color: #ffffff; */
+  border-radius: 20px;
+  width: 60vw;
+  height: 60vh;
+  
+}
+
+.con .myform{
+  /* background-color: #fff; */
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.inputbox,button{
+  /* margin-left: 50px;
+    width:500px;
+    height: 20px; 
+    border-radius: 5px;
+    border: 2px solid black */
+
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+    border-radius: 16px*20;
+    padding: 16px;
+    background-color:#EBECF0;
+    text-shadow: 1px 1px 0 #FFFFFF;
+}
+.inputbox{
+    margin-right: 16px/2;
+    box-shadow:  inset 2px 2px 5px #BABECC, inset -5px -5px 10px #FFFFFF;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: 'Mate SC', serif;  
+    transition: all 0.2s ease-in-out;
+    appearance: none;
+    -webkit-appearance: none;
+    border-radius: 10px;
+  }
+
+  /* #sub_btn{
+    color:#61677C;
+    background-color: #5ca1e1;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    font-weight: 600;
+  } */
+
+#sub_btn{
+
+    border-radius: 10px;
+    background-color: #ffd900;
+    border: none;
+    color: #000000;
+    text-align: center;
+    font-size: 20px;
+    width: 220px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-left: 130px;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+    border: 3px solid #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  
+}
+#sub_btn:after {
+  content: "➤";
+  position: absolute;
+  opacity: 0;  
+  top: 14px;
+  right: -20px;
+  transition: 0.3s;
+}
+
+#sub_btn:hover{
+  background-color: #000000;
+  border: 3px solid #ffd900;
+  padding-right: 24px;
+  color: #FFFFFF;
+  padding-left:8px;
+}
+
+#sub_btn:hover:after {
+  opacity: 1;
+  right: 10px;
+}
+
+/* .socialbar  */
+
+.desc p{
+  font-family: 'Mate SC', serif;  
+  font-size: 20px;
+  font-weight: 550;
+  margin-left: 10px;
+
+}
+.social{
+    position: absolute;
+    bottom: 1px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 20px;
+    /* position: relative; */
+    height: 70px;
+    background-color: #ffd900 ;
+    /* margin: 20px; */
+    width: -webkit-fill-available;
+}
+
+.fa,.fab,.far{
+    padding: 18px;
+    font-size: 25px;
+    width: 25px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 5px;
+  }
+  
+  .fa:hover,.fab:hover ,.far:hover{
+      opacity: 0.6;
+  }
+  
+  .fa-facebook {
+    border-radius: 50px;
+    background: #3B5998;
+    color: white;
+  }
+
+  .fa-facebook:hover {
+    border-radius: 50px;
+    background: #3B5998;
+    color: white;
+}
+
+  .fa-twitter {
+    border-radius: 50px;
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fa-linkedin {
+    border-radius: 50px;
+    background: #007bb5;
+    color: white;
+  }
+
+  .fa-instagram {
+    border-radius: 50px;
+    background: #07d;
+    color: white;
+  }
+  .fa-snapchat-ghost {
+    border-radius: 50px;
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+
+  .fa-yahoo {
+  border-radius: 50px;
+  background: #430297;
+  color: white;
+}
+.fa-whatsapp{
+  border-radius: 50px;
+  background:#25D366;
+  color: white;
+
+}
+
+.fa-envelope{
+  border-radius: 50px;
+  background:#B23121;
+  color: white;
+
+}

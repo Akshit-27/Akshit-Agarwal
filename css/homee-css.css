@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("/images/wp2406521.jpg");
+    background-repeat: no-repeat;
+    font-family: 'Ubuntu', sans-serif;
+}
+/* nav bar css */
+.navbar{
+    width: 100%;
+    background: #ffd900;
+    padding: 20px 0px;
+}
+.navbar ul{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.navbar ul li{
+    list-style: none;
+    margin: 0 20px;
+    display: inline;
+}
+.navbar ul li a{
+    color: #000000;
+    font-size: 1em;
+    line-height: 1em;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: inline-block;
+    font-weight: 700;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+.navbar ul li a.active{
+    background: #FFFFFF;
+}
+/* hover effects css */
+.navbar ul li:hover a{
+    background: #FFFFFF;
+}
+.about{
+    margin-left: 75px;
+    margin-top: 30px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+.desc{
+    margin: 100px;
+    margin-left: 0px;
+}
+.mypic{
+    margin:10px;
+    border-radius: 50%;
+    border: 3px solid #ffd900;
+    margin-left: 10px;
+}
+
+.name{
+    font-size: 30px;
+    margin-left: 200px;
+    font-family: 'Mate SC', serif;
+}
+
+.name p{
+    font-size: 20px;
+    font-family: 'Mate SC', serif;
+}
+.downloadbtn{
+    width: 270px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #ffd900;
+    color:#000000;
+    transition:all 0.3s;
+    border: 2px solid white;
+    font-size: 20px;
+    margin-left: 230px;
+    margin-top: 50px;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+    transition: 0.3s;
+    position: relative;
+}
+.downloadbtn:hover{
+    border: 2px solid #FFFFFF;
+    background-color: #000000;
+    color: #FFFFFF;
+
+} 
+
+.downloadbtn:after {
+    content: "➤";
+    position: absolute;
+    opacity: 0;  
+    top: 5px;
+    right: -20px;
+    transition: 0.3s;
+  }
+  .downloadbtn:hover:after {
+    opacity: 1;
+    right: 20px;
+}

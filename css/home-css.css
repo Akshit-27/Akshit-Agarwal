@@ -1,0 +1,231 @@
+html{
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+/* nav bar css */
+.navbar{
+    width: 100%;
+    /* background: #2c3e50; */
+    background: #55ACEE;
+    padding: 20px 0px;
+    position: fixed;
+}
+.navbar ul{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.navbar ul li{
+    list-style: none;
+    margin: 0 20px;
+    display: inline;
+}
+.navbar ul li a{
+    color: #000000;
+    font-size: 1em;
+    line-height: 1em;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: inline-block;
+    font-weight: 700;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+.navbar ul li a.active{
+    background: #FFFFFF;
+}
+/* hover effects css */
+.navbar ul li:hover a{
+    background: #FFFFFF;
+}
+/* sections css */
+.section2,.section3{
+    padding-top: 80px;
+    height: 100vh;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    font-size: 5em;
+    color: #E91E63;
+}
+/* section 1 css */
+.section1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    color: #E91E63;
+}
+
+#profile-pic{
+    margin-left: 20px;
+    border: 5px solid #000000;
+    border-radius: 50%;
+}
+.section1 .name{
+    font-size: 30px;
+    margin-left: 100px;
+}
+.section1 .name p{
+    font-size: 20px;
+}
+
+.downloadbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 40px;
+    border-radius: 12px;
+    background-color: #2c3e50;
+    color:#c8d6e5;
+    transition: .3s;
+    margin-top: 600px;
+    margin-left: -100px;
+}
+.downloadbtn:hover{
+    border: 2px solid black;
+    background-color: #06aed4;
+
+}
+/* section 4 css */
+
+.contact-section{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+    /* margin-top: 15vh; */
+}
+.section4{
+    /* background-image: url("/images/sec4_bg_2\ -\ Copy.jpg"); */
+    /* background-repeat: no-repeat; */
+    background-color: #000000;
+}
+.section4 h3{
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px;
+    font-size: 5em;
+}
+.section4 .contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #55ACEE;
+    font-size: 20px;
+    margin: 20px;
+    color: #FFFFFF;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.section4 .contact a{
+    text-decoration: none;
+    color: #fff;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+
+.section4  .social{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 20px;
+    position: relative;
+    height: 70px;
+    background-color: #85C1E9 ;
+    margin: 20px;
+    width: -webkit-fill-available;
+}
+
+.fa {
+    padding: 18px;
+    font-size: 25px;
+    width: 25px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 5px;
+  }
+  
+  .fa:hover {
+      opacity: 0.5;
+  }
+  
+  .fa-facebook {
+      border-radius: 50px;
+    background: #3B5998;
+    color: white;
+  }
+
+  .fa-facebook:hover {
+    border-radius: 50px;
+    background: #3B5998;
+    color: white;
+}
+
+  .fa-twitter {
+    border-radius: 50px;
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fa-linkedin {
+    border-radius: 50px;
+    background: #007bb5;
+    color: white;
+  }
+
+  .fa-instagram {
+    border-radius: 50px;
+    background: #07d;
+    color: white;
+  }
+  .fa-snapchat-ghost {
+    border-radius: 50px;
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+
+  .fa-yahoo {
+    border-radius: 50px;
+  background: #430297;
+  color: white;
+}
+
+
+section:nth-child(odd){
+    background: #430297;
+}
+
+/* scroll to  top btn css */
+.arrow-btn{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 9;
+}
+
+.arrow-btn a {
+    height: 39px;
+    width:37px;
+    text-align: center;
+    background: #55ACEE;
+    display: block;
+    border-radius: 3px;
+    cursor:pointer;
+}
+
+.arrow-btn a span{
+    color:#f2f2f2;
+    line-height: 39px;
+    font-size: 25px;
+}
