@@ -17,7 +17,7 @@ body{
 .navbar{
     width: 100%;
     top: 0%;
-    background: #ffd900;
+/*     background: #ffd900; */
     padding: 20px 0px;
 }
 .navbar ul{
@@ -43,11 +43,11 @@ body{
     border-radius: 10px;
 }
 .navbar ul li a.active{
-    background: #FFFFFF;
+    background: #C0C0C0;
 }
 /* hover effects css */
 .navbar ul li:hover a{
-    background: #FFFFFF;
+    background: #C0C0C0;
 }
 .heading{
   color: #ffffff;
