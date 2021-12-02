@@ -81,7 +81,7 @@ body{
     margin: 10px;
     border-radius: 30px;
     border: 5px solid #FFFFFF;
-    background-image: url("/images/Python1.png");
+    background-image: url("../images/Python1.png");
     width: 400px;
     height: 300px;
 }
@@ -114,7 +114,7 @@ body{
     border: 5px solid #3ddb86;
     background-color: #FFFFFF;
     color: #000000;
-    background-image: url("/images/java.png");
+    background-image: url("../images/java.png");
     background-repeat: no-repeat;
     background-origin: content-box;
     background-position: 100% 60%;
@@ -140,7 +140,7 @@ body{
     border: 5px solid #3ddb86;
     background-color: #FFFFFF;
     color: #000000;
-    background-image: url("/images/Product-Python.png");
+    background-image: url("../images/Product-Python.png");
     background-repeat: no-repeat;
     background-origin: content-box;
     background-position: 100% 60%;
