@@ -7,7 +7,7 @@ body{
     margin: 0;
     padding: 0;
     /* background-color:#FFFFFF; */
-    background-image: url("/images/contact_us_background2.jpg");
+    background-image: url("../images/contact_us_background2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position:  center center;
