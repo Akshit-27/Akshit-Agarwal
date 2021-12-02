@@ -7,7 +7,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-image: url("../images/projectbg4.jpg");
+    background-image: url("../images/projectbg4.png");
         background-position: center;
     background-size: cover;
 }
@@ -16,7 +16,7 @@ body{
 
 .navbar{
     width: 100%;
-    background: #ffd900;
+/*     background: #ffd900; */
     padding: 20px 0px;
 }
 .navbar ul{
