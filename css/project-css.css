@@ -7,7 +7,9 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-image: url("../images/black-abstract-background-with-various-corner-layers-vector.jpg");
+    background-image: url("../images/projectbg4.jpg");
+        background-position: center;
+    background-size: cover;
 }
 
 /* nav bar css */
@@ -28,7 +30,8 @@ body{
     display: inline;
 }
 .navbar ul li a{
-    color: #000000;
+/*     color: #000000; */
+    color:#FFF;
     font-size: 1em;
     line-height: 1em;
     text-transform: uppercase;
@@ -40,13 +43,13 @@ body{
     border-radius: 10px;
 }
 .navbar ul li a.active{
-    background: #FFFFFF;
+    background: #000;
 }
 
 /* hover effects css */
 
 .navbar ul li:hover a{
-    background: #FFFFFF;
+    background: #000;
 }
 
 /* All Projects CSS */
@@ -60,7 +63,7 @@ body{
 .java_projects  {
     margin: 10px;
     border-radius: 30px;
-    border: 5px solid #FFFFFF;
+    border: 5px solid #000;
     background-image: url("../images/Java11.png");
     width: 400px;
     height: 300px;
@@ -80,7 +83,7 @@ body{
 .python_projects{
     margin: 10px;
     border-radius: 30px;
-    border: 5px solid #FFFFFF;
+    border: 5px solid #000;
     background-image: url("../images/Python1.png");
     width: 400px;
     height: 300px;
@@ -89,7 +92,7 @@ body{
     margin: 10px;
     color: #FFFFFF;
     border-radius: 30px;
-    border: 5px solid #FFFFFF;
+    border: 5px solid #000  ;
     background-image: url("../images/Android1.png");
     width: 400px;
     height: 300px;
