@@ -5,6 +5,9 @@ html{
 body{
     margin: 0;
     padding: 0;
+    background-image: url("../images/wp2406521.jpg");
+    background-repeat: no-repeat;
+    font-family: 'Ubuntu', sans-serif;
 }
 /* nav bar css */
 .navbar{
