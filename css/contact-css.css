@@ -244,6 +244,12 @@ body{
   background: #430297;
   color: white;
 }
+
+.fa-github-square {
+    border-radius: 50px;
+    background: #000000;
+    color: white;
+}
 .fa-whatsapp{
   border-radius: 50px;
   background:#25D366;
