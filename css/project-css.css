@@ -166,7 +166,7 @@ body{
     border: 5px solid #3ddb86;
     color: #000000;
     background-color: #FFFFFF;
-    background-image: url("/images/android.png");
+    background-image: url("../images/android.png");
     background-repeat: no-repeat;
     background-origin: content-box;
     background-position: 100% 60%;
