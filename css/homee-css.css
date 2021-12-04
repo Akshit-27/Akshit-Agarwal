@@ -38,7 +38,7 @@ body{
     border-radius: 10px;
 }
 .navbar ul li a.active{
-    background: #FFF;
+    background: #c0c0c0;
 }
 /* hover effects css */
 .navbar ul li:hover a{
