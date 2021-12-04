@@ -38,7 +38,7 @@ body{
     border-radius: 10px;
 }
 .navbar ul li a.active{
-    background: #000;
+    background: #FFF;
 }
 /* hover effects css */
 .navbar ul li:hover a{
@@ -59,7 +59,7 @@ body{
 .mypic{
     margin:10px;
     border-radius: 50%;
-    border: 3px solid #ffd900;
+    border: 3px solid #fff;
     margin-left: 10px;
 }
 
