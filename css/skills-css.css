@@ -5,10 +5,14 @@ html{
 body{
     margin: 0;
     padding: 0;
-    background-image: url("../images/806427.jpg");
-    height: 100%;
-    background-size: cover;
+    background-image: url("../images/wp6077121.webp");
+    /* height: 100%; */
+    /* background-position: center center; */
     background-repeat: no-repeat;
+    background-size:auto;
+    background-position:center;
+    /* background-image: url("../images/dark-tech.png"); */
+    /* background-repeat: no-repeat; */
     font-family: 'Ubuntu', sans-serif;
 }
 /* nav bar css */
@@ -16,9 +20,11 @@ body{
     width: 100%;
     /* background: #2c3e50; */
     /* background: #55ACEE; */
-    background: #ffd900;
+    /* background: #1b2026; */
+    /* background: #0001; */
     padding: 20px 0px;
-    position: fixed;
+    /* position: fixed; */
+    position: absolute;
 }
 .navbar ul{
     margin: 0;
@@ -31,7 +37,8 @@ body{
     display: inline;
 }
 .navbar ul li a{
-    color: #000000;
+    /* color: #000000; */
+    color: #ffffff;
     font-size: 1em;
     line-height: 1em;
     text-transform: uppercase;
@@ -43,9 +50,81 @@ body{
     border-radius: 10px;
 }
 .navbar ul li a.active{
-    background: #FFFFFF;
+    background: #000;
 }
 /* hover effects css */
 .navbar ul li:hover a{
-    background: #FFFFFF;
+    background: #000;
+}
+h2{
+    text-align: center;
+}
+
+.chart h2{
+/* font-size: small; */
+    padding-top: 70px;
+    color: #ffffff;
+}
+
+.chart h4{
+    margin-top: 10px;
+    margin-bottom:  5px;
+    margin-left: 25%;
+    color: #fff;
+    /* content: attr(data-percentage)'%'; */
+}
+
+.container{
+    width:  50%;   
+    background-color: #ffffff;
+    margin-left: 25%;
+    border-radius: 5px;
+    /* content: attr(data-percentage)'%'; */
+    }
+
+    .skills{
+        text-align: right;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: #ffffff;
+        border-radius: 5px;
+        /* content: attr(data-percentage)'%'; */
+    
+    }
+
+.Java{
+    width: 60%;
+    background-color: #4e7896;
+    
+}
+
+.Python{
+    width: 35%;
+    background-color: #ffcb3c;
+}
+
+.HTML{
+    width: 45%;
+    background-color: #f16529;
+}
+
+.CSS{
+    width: 43%;
+    background-color: #0096dc;
+}
+
+.Android{
+    width: 40%;
+    background-color: #9cbc36;
+}
+
+.LINUX{
+    width: 60%;
+    background-color: #e20000;
+}
+
+.Database{
+    width: 40%;
+    background-color: #4a1410;
+
 }
