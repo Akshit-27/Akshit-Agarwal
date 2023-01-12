@@ -71,12 +71,13 @@ body{
     justify-content: center;
     align-items: center;
 }
-.con{
-  /* background-color: #ffffff; */
+.con {
   border-radius: 20px;
-  width: 60vw;
-  height: 60vh;
-  
+  width: 50vw;
+  height: 65vh;
+  background-color: #A3A3a3;
+  background: rgba(255, 255, 255, 0.5);
+
 }
 
 .con .myform{
