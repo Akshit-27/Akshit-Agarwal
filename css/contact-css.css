@@ -51,7 +51,7 @@ body{
 }
 .heading{
   color: #ffffff;
-  margin-left: 215px;
+  margin-left: 150px;
   margin-top: -50px;
   /* font-family: monospace; */
   font-family: 'Mate SC', serif;
@@ -91,18 +91,11 @@ body{
 
 
 .inputbox,button{
-  /* margin-left: 50px;
-    width:500px;
-    height: 20px; 
-    border-radius: 5px;
-    border: 2px solid black */
-
     border: 0;
     outline: 0;
     font-size: 16px;
     border-radius: 16px*20;
     padding: 16px;
-    background-color:#EBECF0;
     text-shadow: 1px 1px 0 #FFFFFF;
 }
 .inputbox{
@@ -129,7 +122,7 @@ body{
 #sub_btn{
 
     border-radius: 10px;
-    background-color: #c0c0c0;
+    background-color: #404040;
     border: none;
     color: #000000;
     text-align: center;
